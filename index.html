@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
 </head>
 <body>
-    <header>
-        <h1>Nombre</h1>
+    <header id="header">
+        <h1>Juan Pedro Chaupin Sota</h1>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="">Enlace 1</a></li>
                 <li><a href="">Enlace 2</a></li>
                 <li><a href="">Enlace 3</a></li>
@@ -18,50 +20,55 @@
         </nav>
     </header>
 
-    <section id="sobremi">
-        <h1>Sobre mi</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aut nemo architecto quos quis sequi eaque at excepturi quod.</p>
-        <p>Ut placeat omnis minus, aspernatur repellendus nulla voluptates voluptate. Placeat laudantium excepturi molestias similique tenetur, temporibus dolores hic cumque.</p>
-    </section>
+    <div class="main-content">
+        <section id="sobremi" class="padded">
+            <div class="container">
+                <h2>Sobre mi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aut nemo architecto quos quis sequi eaque at excepturi quod.</p>
+                <p>Ut placeat omnis minus, aspernatur repellendus nulla voluptates voluptate. Placeat laudantium excepturi molestias similique tenetur, temporibus dolores hic cumque.</p>
+            </div>
+        </section>
 
-    <h1>Proyectos</h1>
-
-        <section>
-        <article>
-            <p>Lorem, ipsum.</p>
-            <p>Possimus, totam.</p>
-        </article>
-        <article>
-            <p>Lorem, ipsum.</p>
-            <p>Nam, in!</p>
-        </article>
-        <article>
-            <p>Lorem, ipsum.</p>
-            <p>Eum, exercitationem.</p>
-        </article>
-    </section>
-    <section>
-        <article>
-            <p>Lorem, ipsum.</p>
-            <p>Quaerat, quod!</p>
-        </article>
-        <article>
-            <p>Lorem, ipsum.</p>
-            <p>Sapiente, temporibus?</p>
-        </article>
-        <article>
-            <p>Lorem, ipsum.</p>
-            <p>Nam, culpa!</p>
-        </article>
-    </section>
+        <section id="Proyectos" class="padded">
+            <div class="container">
+                <article>
+                        <h2>Proyectos</h2>
+                        <p>Lorem, ipsum.</p>
+                        <p>Possimus, totam.</p>
+                </article>
+                <article>
+                        <p>Lorem, ipsum.</p>
+                        <p>Nam, in!</p>
+                </article>
+                <article>
+                    <p>Lorem, ipsum.</p>
+                    <p>Eum, exercitationem.</p>
+                </article>
+            </div>
+        </section>
+        <section id="Otros" class="padded">
+            <div class="container">
+                <article>
+                    <p>Lorem, ipsum.</p>
+                    <p>Quaerat, quod!</p>
+                </article>
+                <article>
+                    <p>Lorem, ipsum.</p>
+                    <p>Sapiente, temporibus?</p>
+                </article>
+                <article>
+                    <p>Lorem, ipsum.</p>
+                    <p>Nam, culpa!</p>
+                </article>
+            </div>
+        </section>
+    </div>
 
     <footer>
-        <h1>Contactos</h1>
+        <div>
+            <h2 id="footer-text">Contactos@2025</h2>
+        </div>
     </footer>
-
-    
-
-
 
 </body>
 </html>
