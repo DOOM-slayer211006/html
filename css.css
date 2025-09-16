@@ -51,7 +51,8 @@ h1{
 }
 
 .container{
-    max-width: 1020px;
+    width: 920px;
+    overflow: auto;
     margin-left: auto;
     margin-right: auto;
     padding-top: 25px;
@@ -60,7 +61,7 @@ h1{
     padding-right: 18px;
     background-color: var(--color-text3);
     border-radius: 10px;
-    box-shadow: 2px 2px 1.5px #b8b8b8;
+    box-shadow: 3px 3px 1.5px rgb(0, 0, 0, 0.1);
 }
 
 .padded{
