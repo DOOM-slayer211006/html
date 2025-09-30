@@ -50,6 +50,10 @@ h1{
     font-size: 65px;
 }
 
+p{
+    font-size: 16px;
+}
+
 .container{
     width: 920px;
     overflow: auto;
@@ -111,4 +115,16 @@ h1{
     text-align: center;
     color: var(--color-text2);
     padding: var(--tamaño-l) 0px;
+}
+
+@media (max-width: 650px) {
+  
+  .container{
+    width: 100%;
+  }
+  
+  p{
+    font-size:16px;
+  }
+
 }
